@@ -1,22 +1,42 @@
 {
-  "name": "@local/dsh-wechat-theme",
+  "name": "dsh-wechat-theme",
   "version": "1.0.0",
-  "private": true,
-  "description": "WeChat-style color theme for the DeepSeek Harness Web GUI.",
+  "description": "WeChat-style theme for the DeepSeek Harness Web GUI: green accents, green user bubbles, a gray chat canvas, a green sidebar whale, a current-session badge, a context-usage dot, and a prominent compaction card.",
   "type": "module",
+  "license": "MIT",
+  "icon": "icon.svg",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
     "./locale/*.json": "./locale/*.json",
-    "./icon": "./icon.svg"
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
   },
   "files": [
     "index.js",
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
   ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "theme",
+    "wechat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mingtia-Li/dsh-wechat-theme.git"
+  },
+  "homepage": "https://github.com/Mingtia-Li/dsh-wechat-theme#readme",
+  "bugs": {
+    "url": "https://github.com/Mingtia-Li/dsh-wechat-theme/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"

@@ -6,7 +6,7 @@
  * adds a usage-level dot beside the host's context meter. Palette values are CSS
  * colors only; the decorations use theme tokens and dispose with the plugin.
  */
-const PACKAGE_ID = '@local/dsh-wechat-theme';
+const PACKAGE_ID = 'dsh-wechat-theme';
 const LOCALE_NS = 'wechat-theme';
 
 /**
