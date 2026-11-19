@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f2f5f0">
-<title>dsh-wechat-theme · 微信主题演示</title>
+<title>dsh-wechat-skin · 微信主题演示</title>
 <script>
   (() => {
     const p = new URLSearchParams(location.search);
@@ -848,10 +848,10 @@
 
 <header class="site-head">
   <div class="wrap head-inner">
-    <a class="brand" href="#top" aria-label="dsh-wechat-theme 首页">
+    <a class="brand" href="#top" aria-label="dsh-wechat-skin 首页">
       <span class="brand-mark"><svg class="whale"><use href="#whale"/></svg></span>
       <span>
-        <span class="brand-name">dsh-wechat-theme</span>
+        <span class="brand-name">dsh-wechat-skin</span>
         <span class="brand-sub">WECHAT × DEEPSEEK HARNESS</span>
       </span>
     </a>
@@ -973,7 +973,7 @@
             <div class="side-label" style="margin-top:6px"><span>最近会话</span><span>今天</span></div>
             <div class="session-list">
               <div class="session-row active">
-                <div class="session-title">dsh-wechat-theme 演示</div>
+                <div class="session-title">dsh-wechat-skin 演示</div>
                 <div class="session-sub">10:12 <span class="current-badge host-hide">当前</span></div>
               </div>
               <div class="session-row">
@@ -1000,7 +1000,7 @@
         <div class="chat">
           <header class="chat-head">
             <div class="chat-title">
-              <h2>dsh-wechat-theme 演示</h2>
+              <h2>dsh-wechat-skin 演示</h2>
               <p><span class="mini-dot"></span> TEMP_LOG · <span class="only-theme">微信主题已启用</span><span class="only-host">宿主默认 · 已停用</span></p>
             </div>
             <div class="chat-actions">
@@ -1024,7 +1024,7 @@
                 <div class="assistant-avatar"><svg class="whale"><use href="#whale"/></svg></div>
                 <div class="assistant-body">
                   <div class="assistant-name">DeepSeek Harness <time>刚刚</time> <span class="model-chip only-theme">theme</span></div>
-                  <p class="assistant-text">已加载 <code>@local/dsh-wechat-theme</code>。调色板通过 <code>theme.overrideTokens</code> 注入，组件结构没有改动。</p>
+                  <p class="assistant-text">已加载 <code>@local/dsh-wechat-skin</code>。调色板通过 <code>theme.overrideTokens</code> 注入，组件结构没有改动。</p>
                   <div class="tool-card">
                     <div class="tool-icon">{ }</div>
                     <div class="tool-main">
@@ -1044,7 +1044,7 @@
                     <div class="compaction-summary">保留了主题设计、插件启用状态与安装步骤；已折叠早期工具调用和日志输出。</div>
                   </div>
                   <div class="plain-compaction">上下文已压缩 · 18 条历史（约 12,480 tokens）</div>
-                  <p class="assistant-tail"><span class="status-inline only-theme">主题已生效</span><span class="status-inline host-status only-host">插件已停用</span><span class="only-theme">　禁用插件并刷新页面，就会回到宿主原来的配色。</span><span class="only-host">　启用 dsh-wechat-theme 并刷新页面，即可恢复微信绿。</span></p>
+                  <p class="assistant-tail"><span class="status-inline only-theme">主题已生效</span><span class="status-inline host-status only-host">插件已停用</span><span class="only-theme">　禁用插件并刷新页面，就会回到宿主原来的配色。</span><span class="only-host">　启用 dsh-wechat-skin 并刷新页面，即可恢复微信绿。</span></p>
                 </div>
               </div>
             </div>
@@ -1078,7 +1078,7 @@
     </section>
     <div class="app-caption">
       <span class="left">界面示意：按插件的 27 个 token 与组件结构还原</span>
-      <span class="right">1440 × 900 · @local/dsh-wechat-theme</span>
+      <span class="right">1440 × 900 · @local/dsh-wechat-skin</span>
     </div>
   </div>
 
@@ -1125,7 +1125,7 @@
         <p>主视图正在查看的会话行，在时间后多一个绿色「当前」徽标。</p>
         <div class="feature-visual">
           <div class="mini-sidebar">
-            <div class="mini-session"><span class="t">dsh-wechat-theme 演示</span><span class="m">10:12 <span class="current-badge">当前</span></span></div>
+            <div class="mini-session"><span class="t">dsh-wechat-skin 演示</span><span class="m">10:12 <span class="current-badge">当前</span></span></div>
           </div>
         </div>
       </article>
@@ -1160,8 +1160,8 @@
         <h3>开就是绿，关就是原样</h3>
         <p>主题是一层 alias token 覆盖；禁用插件即精确恢复宿主调色板。</p>
         <div class="feature-visual">
-          <div class="toggle-visual"><span class="toggle-label">@local/dsh-wechat-theme</span><span class="fake-toggle" aria-hidden="true"></span></div>
-          <div class="code-mini"><b>ctx.theme</b>.overrideTokens(<br>&nbsp;&nbsp;'dsh-wechat-theme', tokens<br>)</div>
+          <div class="toggle-visual"><span class="toggle-label">@local/dsh-wechat-skin</span><span class="fake-toggle" aria-hidden="true"></span></div>
+          <div class="code-mini"><b>ctx.theme</b>.overrideTokens(<br>&nbsp;&nbsp;'dsh-wechat-skin', tokens<br>)</div>
         </div>
       </article>
     </div>
@@ -1227,19 +1227,19 @@
             <div class="code-window-head"><i></i><i></i><i></i><span>terminal</span></div>
             <div class="code-body">
               <span class="prompt">$</span>
-              <code class="install-cmd" id="install-command">dsh plugin --profile web add dsh-wechat-theme</code>
+              <code class="install-cmd" id="install-command">dsh plugin --profile web add dsh-wechat-skin</code>
               <button class="copy-btn" type="button" data-copy-command><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg> 复制</button>
             </div>
             <div class="code-foot"><span class="dot"></span> 安装后刷新页面 · 插件页可随时禁用</div>
           </div>
-          <div class="install-note">当前演示环境：<span style="font-family:var(--mono);color:#b8d8c3">@local/dsh-wechat-theme</span> · v1.0.0</div>
+          <div class="install-note">当前演示环境：<span style="font-family:var(--mono);color:#b8d8c3">@local/dsh-wechat-skin</span> · v1.0.0</div>
         </div>
       </div>
     </section>
 
     <footer class="site-foot">
       <div>
-        <div class="foot-brand"><span class="brand-mark"><svg class="whale"><use href="#whale"/></svg></span> dsh-wechat-theme</div>
+        <div class="foot-brand"><span class="brand-mark"><svg class="whale"><use href="#whale"/></svg></span> dsh-wechat-skin</div>
         <p class="foot-copy">微信绿，但仍然是 DSH。一个很小的主题层，给每天的对话换一点熟悉的颜色。</p>
       </div>
       <div class="foot-right">

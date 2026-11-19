@@ -1,17 +1,19 @@
-# dsh-wechat-theme
+# dsh-wechat-skin
 
 DeepSeek Harness Web GUI 的微信风格主题。整个插件只做两件事：注册一层主题 token，加三个小装饰和一张压缩卡片；
 禁用插件时全部撤掉，恢复宿主原配色。
 
-**在线演示：** <https://mingtian-lii.github.io/dsh-wechat-theme/demo.html> — 静态配色预览（假数据，不是运行中的应用）。
+> 已从 `dsh-wechat-theme` 改名为 `dsh-wechat-skin`，避免与市场上已有的同名插件冲突。
+
+**在线演示：** <https://mingtian-lii.github.io/dsh-wechat-skin/demo.html> — 静态配色预览（假数据，不是运行中的应用）。
 
 ## 截图
 
-![浅色模式](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/light.png)
+![浅色模式](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-skin/master/assets/screenshots/light.png)
 
-![深色模式](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/dark.png)
+![深色模式](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-skin/master/assets/screenshots/dark.png)
 
-![上下文压缩卡片](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/compacted.png)
+![上下文压缩卡片](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-skin/master/assets/screenshots/compacted.png)
 
 ## 改了什么
 
@@ -37,7 +39,7 @@ DeepSeek Harness Web GUI 的微信风格主题。整个插件只做两件事：�
 命令行安装：
 
 ```sh
-dsh plugin --profile web add dsh-wechat-theme
+dsh plugin --profile web add dsh-wechat-skin
 ```
 
 然后刷新页面。插件启用期间主题生效；在**插件**页禁用它即可恢复宿主配色。在已打开的页面里重新启用
@@ -45,7 +47,7 @@ dsh plugin --profile web add dsh-wechat-theme
 
 ## 实现方式
 
-- `client.js` 在激活时调用一次 `ctx.theme.overrideTokens('dsh-wechat-theme', tokens)`，每个值都是
+- `client.js` 在激活时调用一次 `ctx.theme.overrideTokens('dsh-wechat-skin', tokens)`，每个值都是
   `{ light, dark }` 成对提供，因此会跟随宿主的浅色/深色/跟随系统偏好。
 - `sidebar.brand.mark` 以 `priority: -1` 覆盖官方图标，用官方鲸鱼路径绘制并填充主题的微信绿。鲸鱼是产品
   自身的标识，本插件只改颜色，不主张对图形的所有权。

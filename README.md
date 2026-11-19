@@ -1,17 +1,19 @@
-# dsh-wechat-theme
+# dsh-wechat-skin
 
 A WeChat-style theme for the DeepSeek Harness Web GUI. It is a client-side bundle: one theme-token
 layer, three small slot decorations, and a compaction card, all removed when the plugin is disabled.
 
-**Live demo:** <https://mingtian-lii.github.io/dsh-wechat-theme/demo.html> — a static preview of the palette (fake data, not the running app).
+> Renamed from `dsh-wechat-theme` to `dsh-wechat-skin` so it no longer collides with an existing plugin that shares the old name.
+
+**Live demo:** <https://mingtian-lii.github.io/dsh-wechat-skin/demo.html> — a static preview of the palette (fake data, not the running app).
 
 ## Screenshots
 
-![WeChat-style theme in light mode](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/light.png)
+![WeChat-style theme in light mode](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-skin/master/assets/screenshots/light.png)
 
-![WeChat-style theme in dark mode](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/dark.png)
+![WeChat-style theme in dark mode](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-skin/master/assets/screenshots/dark.png)
 
-![Context compaction card](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/compacted.png)
+![Context compaction card](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-skin/master/assets/screenshots/compacted.png)
 
 ## What changes
 
@@ -44,7 +46,7 @@ Once listed in the plugin market: **Plugins → Plugin Market → Themes**, sear
 From the CLI:
 
 ```sh
-dsh plugin --profile web add dsh-wechat-theme
+dsh plugin --profile web add dsh-wechat-skin
 ```
 
 Then refresh the Web page. The theme applies while the plugin is enabled; disable it under **Plugins** to
@@ -53,7 +55,7 @@ browser-side module is loaded at page boot.
 
 ## How it works
 
-- `client.js` calls `ctx.theme.overrideTokens('dsh-wechat-theme', tokens)` once at activation. Every value
+- `client.js` calls `ctx.theme.overrideTokens('dsh-wechat-skin', tokens)` once at activation. Every value
   is a `{ light, dark }` pair, so the theme follows the host's light/dark/system preference.
 - `sidebar.brand.mark` is replaced at priority `-1` by an SVG that reuses the official whale path and paints
   it with the theme's brand green. The whale is the product's own mark — this plugin only recolors it and
