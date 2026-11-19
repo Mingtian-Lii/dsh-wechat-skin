@@ -1,6 +1,6 @@
 {
   "name": "dsh-wechat-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WeChat-style theme for the DeepSeek Harness Web GUI: green accents, green user bubbles, a gray chat canvas, a green sidebar whale, a current-session badge, a context-usage dot, and a prominent compaction card.",
   "type": "module",
   "license": "MIT",
@@ -31,11 +31,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mingtia-Li/dsh-wechat-theme.git"
+    "url": "git+https://github.com/Mingtian-Lii/dsh-wechat-theme.git"
   },
-  "homepage": "https://github.com/Mingtia-Li/dsh-wechat-theme#readme",
+  "homepage": "https://github.com/Mingtian-Lii/dsh-wechat-theme#readme",
   "bugs": {
-    "url": "https://github.com/Mingtia-Li/dsh-wechat-theme/issues"
+    "url": "https://github.com/Mingtian-Lii/dsh-wechat-theme/issues"
   },
   "dsh": {
     "bundle": {

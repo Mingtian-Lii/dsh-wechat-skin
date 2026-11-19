@@ -3,13 +3,15 @@
 A WeChat-style theme for the DeepSeek Harness Web GUI. It is a client-side bundle: one theme-token
 layer, three small slot decorations, and a compaction card, all removed when the plugin is disabled.
 
+**Live demo:** <https://mingtian-lii.github.io/dsh-wechat-theme/demo.html> — a static preview of the palette (fake data, not the running app).
+
 ## Screenshots
 
-![WeChat-style theme in light mode](https://raw.githubusercontent.com/Mingtia-Li/dsh-wechat-theme/master/assets/screenshots/light.png)
+![WeChat-style theme in light mode](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/light.png)
 
-![WeChat-style theme in dark mode](https://raw.githubusercontent.com/Mingtia-Li/dsh-wechat-theme/master/assets/screenshots/dark.png)
+![WeChat-style theme in dark mode](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/dark.png)
 
-![Context compaction card](https://raw.githubusercontent.com/Mingtia-Li/dsh-wechat-theme/master/assets/screenshots/compacted.png)
+![Context compaction card](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/compacted.png)
 
 ## What changes
 

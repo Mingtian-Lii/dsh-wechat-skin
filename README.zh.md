@@ -3,13 +3,15 @@
 DeepSeek Harness Web GUI 的微信风格主题。整个插件只做两件事：注册一层主题 token，加三个小装饰和一张压缩卡片；
 禁用插件时全部撤掉，恢复宿主原配色。
 
+**在线演示：** <https://mingtian-lii.github.io/dsh-wechat-theme/demo.html> — 静态配色预览（假数据，不是运行中的应用）。
+
 ## 截图
 
-![浅色模式](https://raw.githubusercontent.com/Mingtia-Li/dsh-wechat-theme/master/assets/screenshots/light.png)
+![浅色模式](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/light.png)
 
-![深色模式](https://raw.githubusercontent.com/Mingtia-Li/dsh-wechat-theme/master/assets/screenshots/dark.png)
+![深色模式](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/dark.png)
 
-![上下文压缩卡片](https://raw.githubusercontent.com/Mingtia-Li/dsh-wechat-theme/master/assets/screenshots/compacted.png)
+![上下文压缩卡片](https://raw.githubusercontent.com/Mingtian-Lii/dsh-wechat-theme/master/assets/screenshots/compacted.png)
 
 ## 改了什么
 
